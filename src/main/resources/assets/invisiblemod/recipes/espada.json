@@ -7,13 +7,13 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:diamond_boots"
+      "item": "minecraft:diamond_sword"
     },
     "#": {
       "item": "invisiblemod:polvoinvisible"
     }
   },
   "result": {
-    "item": "invisiblemod:botas"
+    "item": "invisiblemod:espada"
   }
 }

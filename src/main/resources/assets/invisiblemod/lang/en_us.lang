@@ -1,11 +1,11 @@
 # Items
-item.first_item.name=First Item
+item.polvoinvisible.name=Polvo de invisibilidad
 item.hacha.name=Hacha invisible
 item.azada.name=Azada invisible
 item.pala.name=Pala invisible
 item.pico.name=Pico invisible
-item.invisible_stick.name=Palo de invisibilidad
-item.invisible_sword.name=Espada invisible
+item.paloInvisible.name=Palo de invisibilidad
+item.espada.name=Espada invisible
 
 item.casco.name=Casco invisibles
 item.pechera.name=Pechera invisibles
@@ -13,4 +13,4 @@ item.pantalones.name=Pantalones invisibles
 item.botas.name=Botas invisibles
 
 # Blocks
-tile.block.name=Bloque Invisible
+tile.bloqueinvisible.name=Bloque Invisible

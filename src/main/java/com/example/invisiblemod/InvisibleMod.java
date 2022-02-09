@@ -1,6 +1,6 @@
 package com.example.invisiblemod;
 
-import com.example.invisiblemod.world.gen.ExampleWorldGen;
+import com.example.invisiblemod.world.gen.worldGen;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
@@ -22,7 +22,7 @@ public class InvisibleMod {
 
     @EventHandler
     public void init(FMLInitializationEvent event) {
-        GameRegistry.registerWorldGenerator(new ExampleWorldGen(), 0);
+        GameRegistry.registerWorldGenerator(new worldGen(), 0);
     }
 
     @EventHandler

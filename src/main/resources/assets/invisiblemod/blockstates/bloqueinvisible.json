@@ -1,0 +1,10 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "model": "invisiblemod:bloqueinvisible"
+  },
+  "variants": {
+    "normal": [{}],
+    "inventory": [{}]
+  }
+}

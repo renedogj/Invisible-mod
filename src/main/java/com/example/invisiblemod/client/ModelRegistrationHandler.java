@@ -16,26 +16,25 @@ public class ModelRegistrationHandler {
 
     @SubscribeEvent
     public static void registerModels(ModelRegistryEvent event) {
-        registerModel(ModItems.POLVO_INVISIBLE, 0);
-        registerModel(ModItems.INVISIBLE_STICK,0);
+        registerModel(ModItems.POLVO_INVISIBLE);
+        registerModel(ModItems.INVISIBLE_STICK);
 
-        registerModel(ModItems.HACHA, 0);
-        registerModel(ModItems.AZADA, 0);
-        registerModel(ModItems.PICO,0);
-        registerModel(ModItems.PALA,0);
-        registerModel(ModItems.INVISIBLE_SWORD,0);
+        registerModel(ModItems.HACHA);
+        registerModel(ModItems.AZADA);
+        registerModel(ModItems.PICO);
+        registerModel(ModItems.PALA);
+        registerModel(ModItems.ESPADA);
 
-        registerModel(ModItems.CASCO, 0);
-        registerModel(ModItems.PECHERA, 0);
-        registerModel(ModItems.PANTALONES, 0);
-        registerModel(ModItems.BOTAS, 0);
+        registerModel(ModItems.CASCO);
+        registerModel(ModItems.PECHERA);
+        registerModel(ModItems.PANTALONES);
+        registerModel(ModItems.BOTAS);
 
-        registerModel(Item.getItemFromBlock(ModBlocks.BLOCK), 0);
+        registerModel(Item.getItemFromBlock(ModBlocks.BLOQUE_INVISIBLE));
     }
 
-    private static void registerModel(Item item, int meta) {
-        ModelLoader.setCustomModelResourceLocation(item, meta, new ModelResourceLocation(item.getRegistryName(), "inventory"));
-
+    private static void registerModel(Item item) {
+        ModelLoader.setCustomModelResourceLocation(item, 0, new ModelResourceLocation(item.getRegistryName(), "inventory"));
     }
 
 }

@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:diamond_slave"
+      "item": "minecraft:diamond_shovel"
     },
     "#": {
-      "item": "invisiblemod:polvo_invisible"
+      "item": "invisiblemod:polvoinvisible"
     }
   },
   "result": {

@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "invisiblemod:items/hacha"
+    "layer0": "invisiblemod:items/herramienta"
   }
 }

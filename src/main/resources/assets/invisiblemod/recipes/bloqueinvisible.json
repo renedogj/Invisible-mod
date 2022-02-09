@@ -2,18 +2,15 @@
   "type": "minecraft:crafting_shaped",
   "pattern": [
     "###",
-    "#X#",
+    "###",
     "###"
   ],
   "key": {
-    "X": {
-      "item": "minecraft:diamond_boots"
-    },
     "#": {
       "item": "invisiblemod:polvoinvisible"
     }
   },
   "result": {
-    "item": "invisiblemod:botas"
+    "item": "invisiblemod:bloqueinvisible"
   }
 }
